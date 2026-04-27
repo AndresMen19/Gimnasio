@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IRONFORGE — Elite Training Center</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="colores.css">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+<!-- ═══ NAV ═══ -->
+<nav>
+  <a href="#inicio" class="nav-logo">IRON<span>FORGE</span></a>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#planes">Planes</a></li>
+    <li><a href="#entrenadores">Entrenadores</a></li>
+    <li><a href="#galeria">Galería</a></li>
+    <li><a href="#contacto" class="nav-cta">Únete</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="document.getElementById('nav-links').classList.toggle('open')">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+ 
+<!-- ═══ HERO ═══ -->
+<section id="inicio">
+  <div class="hero-bg"></div>
+  <div class="hero-accent"></div>
+  <div class="hero-line"></div>
+ 
+  <div class="hero-content">
+    <div class="hero-tag">Elite Training Center · Desde 2015</div>
+    <h1 class="hero-title">FORJA<br>TU<br><span>LÍMITE</span></h1>
+    <p class="hero-sub">Entrena con propósito. Supera tus barreras. Transforma tu cuerpo y mentalidad con los mejores entrenadores y equipos de élite.</p>
+    <div class="hero-btns">
+      <a href="#planes" class="btn-primary">Ver Planes</a>
+      <a href="#servicios" class="btn-outline">Conoce más</a>
+    </div>
+  </div>
+ 
+  <div class="hero-stats">
+    <div class="stat-item">
+      <div class="stat-num">12+</div>
+      <div class="stat-label">Años de experiencia</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">3K+</div>
+      <div class="stat-label">Miembros activos</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">48</div>
+      <div class="stat-label">Clases semanales</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">18</div>
+      <div class="stat-label">Entrenadores</div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ═══ SERVICIOS ═══ -->
+<section id="servicios">
+  <div class="section-tag">Lo que ofrecemos</div>
+  <h2 class="section-title reveal">NUESTROS<br>SERVICIOS</h2>
+  <p class="section-sub reveal reveal-delay-1">Diseñados para llevarte al siguiente nivel, sin importar en qué punto del camino estás.</p>
+ 
+  <div class="services-grid">
+    <div class="service-card reveal reveal-delay-1">
+      <span class="service-num">01</span>
+      <span class="service-icon">🏋️</span>
+      <h3>Entrenamiento Personal</h3>
+      <p>Programas 100% personalizados con seguimiento semanal, análisis de progreso y ajuste constante de rutinas para maximizar tus resultados.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-2">
+      <span class="service-num">02</span>
+      <span class="service-icon">🔥</span>
+      <h3>Clases Grupales</h3>
+      <p>Más de 48 clases semanales: CrossFit, HIIT, Spinning, Boxing, Yoga y más. La energía del grupo te impulsa más allá de tus límites.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-3">
+      <span class="service-num">03</span>
+      <span class="service-icon">🥗</span>
+      <h3>Nutrición Deportiva</h3>
+      <p>Asesoría nutricional especializada, planes alimenticios adaptados a tus metas y seguimiento con nuestra dietista certificada.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-1">
+      <span class="service-num">04</span>
+      <span class="service-icon">💪</span>
+      <h3>Zona de Pesas Libre</h3>
+      <p>Más de 800 m² de equipos de última generación, mancuernas hasta 80 kg, racks, plataformas olímpicas y área de estiramiento.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-2">
+      <span class="service-num">05</span>
+      <span class="service-icon">🧘</span>
+      <h3>Recuperación Activa</h3>
+      <p>Sauna, crioterapia, área de foam rolling y fisioterapia deportiva para que tu cuerpo se recupere de manera óptima.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-3">
+      <span class="service-num">06</span>
+      <span class="service-icon">📊</span>
+      <h3>Análisis de Composición</h3>
+      <p>Medición de grasa corporal, masa muscular y metabolismo basal con tecnología InBody. Seguimiento mensual de tu evolución.</p>
+    </div>
+  </div>
+</section>
+ 
+<!-- ═══ PLANES ═══ -->
+<section id="planes">
+  <div class="section-tag">Membresías</div>
+  <h2 class="section-title reveal">ELIGE TU<br>PLAN</h2>
+  <p class="section-sub reveal reveal-delay-1">Sin permanencia mínima. Sin letras pequeñas. Tú decides cuánto invertir en ti mismo.</p>
+ 
+  <div class="plans-grid">
+    <div class="plan-card reveal reveal-delay-1">
+      <div class="plan-name">STARTER</div>
+      <p style="font-size:0.82rem;color:var(--gray);margin-top:6px;font-family:var(--font-cond);letter-spacing:2px;text-transform:uppercase;">Perfecto para comenzar</p>
+      <div class="plan-price"><sup>$</sup>79<sub>/mes</sub></div>
+      <p class="plan-desc">Acceso básico para quienes dan su primer paso.</p>
+      <ul class="plan-features">
+        <li>Acceso sala de pesas (L-V)</li>
+        <li>4 clases grupales/mes</li>
+        <li>Evaluación inicial</li>
+        <li>App de seguimiento</li>
+        <li class="off">Entrenador personal</li>
+        <li class="off">Nutrición</li>
+        <li class="off">Acceso 24/7</li>
+      </ul>
+      <a href="#contacto" class="btn-outline" style="width:100%;text-align:center;">Empezar</a>
+    </div>
+ 
+    <div class="plan-card featured reveal reveal-delay-2">
+      <div class="plan-badge">MÁS POPULAR</div>
+      <div class="plan-name">PRO<span>+</span></div>
+      <p style="font-size:0.82rem;color:var(--gray);margin-top:6px;font-family:var(--font-cond);letter-spacing:2px;text-transform:uppercase;">El favorito de nuestros atletas</p>
+      <div class="plan-price"><sup>$</sup>149<sub>/mes</sub></div>
+      <p class="plan-desc">Acceso completo para resultados reales y sostenidos.</p>
+      <ul class="plan-features">
+        <li>Acceso ilimitado sala de pesas</li>
+        <li>Clases grupales ilimitadas</li>
+        <li>2 sesiones personal/mes</li>
+        <li>Plan nutricional base</li>
+        <li>App de seguimiento avanzada</li>
+        <li>Acceso 24/7</li>
+        <li class="off">Crioterapia y sauna</li>
+      </ul>
+      <a href="#contacto" class="btn-primary" style="width:100%;text-align:center;">Empezar</a>
+    </div>
+ 
+    <div class="plan-card reveal reveal-delay-3">
+      <div class="plan-name">ELITE</div>
+      <p style="font-size:0.82rem;color:var(--gray);margin-top:6px;font-family:var(--font-cond);letter-spacing:2px;text-transform:uppercase;">Experiencia sin límites</p>
+      <div class="plan-price"><sup>$</sup>249<sub>/mes</sub></div>
+      <p class="plan-desc">Para quienes exigen lo mejor en cada aspecto.</p>
+      <ul class="plan-features">
+        <li>Todo de PRO+</li>
+        <li>8 sesiones personal/mes</li>
+        <li>Nutrición personalizada</li>
+        <li>Crioterapia y sauna</li>
+        <li>Análisis InBody mensual</li>
+        <li>Fisioterapia (2/mes)</li>
+        <li>Acceso invitados (2/mes)</li>
+      </ul>
+      <a href="#contacto" class="btn-outline" style="width:100%;text-align:center;">Empezar</a>
+    </div>
+  </div>
+</section>
+ 
+<!-- ═══ ENTRENADORES ═══ -->
+<section id="entrenadores">
+  <div class="section-tag">El equipo</div>
+  <h2 class="section-title reveal">NUESTROS<br>ENTRENADORES</h2>
+  <p class="section-sub reveal reveal-delay-1">Certificados internacionalmente. Comprometidos con tu transformación.</p>
+ 
+  <div class="trainers-grid">
+    <div class="trainer-card reveal reveal-delay-1">
+      <img class="trainer-img" src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=85" alt="Alejandro Ríos">
+      <div class="trainer-overlay">
+        <div class="trainer-name">Alejandro Ríos</div>
+        <div class="trainer-spec">Fuerza & Powerlifting</div>
+        <p class="trainer-bio">Campeón nacional de powerlifting. 10 años formando atletas de alto rendimiento con enfoque en biomecánica.</p>
+      </div>
+    </div>
+    <div class="trainer-card reveal reveal-delay-2">
+      <img class="trainer-img" src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=600&q=85" alt="Valeria Montoya">
+      <div class="trainer-overlay">
+        <div class="trainer-name">Valeria Montoya</div>
+        <div class="trainer-spec">Crossfit & HIIT</div>
+        <p class="trainer-bio">CrossFit Level 2, especialista en programación funcional. Apasionada por romper barreras físicas y mentales.</p>
+      </div>
+    </div>
+    <div class="trainer-card reveal reveal-delay-3">
+      <img class="trainer-img" src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=85" alt="Carlos Mendoza">
+      <div class="trainer-overlay">
+        <div class="trainer-name">Carlos Mendoza</div>
+        <div class="trainer-spec">Nutrición & Body Comp.</div>
+        <p class="trainer-bio">Dietista deportivo y entrenador, ayudando a redefinir cuerpos con ciencia, sin mitos ni atajos.</p>
+      </div>
+    </div>
+    <div class="trainer-card reveal reveal-delay-4">
+      <img class="trainer-img" src="https://images.unsplash.com/photo-1548690312-e3b507d8c110?w=600&q=85" alt="Sara López">
+      <div class="trainer-overlay">
+        <div class="trainer-name">Sara López</div>
+        <div class="trainer-spec">Yoga & Movilidad</div>
+        <p class="trainer-bio">Instructora RYT-500, integrando movilidad, respiración y consciencia corporal para el atleta completo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ═══ GALERÍA ═══ -->
+<section id="galeria">
+  <div class="section-tag">Instalaciones</div>
+  <h2 class="section-title reveal">NUESTRA<br>GALERÍA</h2>
+ 
+  <div class="gallery-grid">
+    <div class="gallery-item g1 reveal">
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=900&q=85" alt="Sala principal">
+    </div>
+    <div class="gallery-item g2 reveal reveal-delay-1">
+      <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&q=85" alt="Entrenamiento">
+    </div>
+    <div class="gallery-item g3 reveal reveal-delay-2">
+      <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=700&q=85" alt="Clases grupales">
+    </div>
+    <div class="gallery-item g4 reveal reveal-delay-1">
+      <img src="https://images.unsplash.com/photo-1576678927484-cc907957088c?w=600&q=85" alt="Spinning">
+    </div>
+    <div class="gallery-item g5 reveal reveal-delay-2">
+      <img src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=900&q=85" alt="Zona funcional">
+    </div>
+    <div class="gallery-item g6 reveal reveal-delay-3">
+      <img src="https://images.unsplash.com/photo-1600881333168-2ef49b341f30?w=600&q=85" alt="Zona yoga">
+    </div>
+  </div>
+</section>
+ 
+<!-- ═══ CONTACTO ═══ -->
+<section id="contacto">
+  <div class="contact-info">
+    <div class="section-tag">¿Listo para empezar?</div>
+    <h2 class="section-title reveal">CONTÁCTANOS</h2>
+    <div class="red-divider"></div>
+    <p>Nuestro equipo está listo para orientarte. Escríbenos, llámanos o visítanos — el primer paso es tuyo.</p>
+ 
+    <div class="contact-detail">
+      <div class="contact-icon">📍</div>
+      <div>
+        <strong>Dirección</strong>
+        <span>Calle 72 # 11-25, Bogotá, Colombia</span>
+      </div>
+    </div>
+    <div class="contact-detail">
+      <div class="contact-icon">📞</div>
+      <div>
+        <strong>Teléfono</strong>
+        <span>+57 (601) 800-1200</span>
+      </div>
+    </div>
+    <div class="contact-detail">
+      <div class="contact-icon">📧</div>
+      <div>
+        <strong>Email</strong>
+        <span>info@ironforge.co</span>
+      </div>
+    </div>
+    <div class="contact-detail">
+      <div class="contact-icon">🕐</div>
+      <div>
+        <strong>Horarios</strong>
+        <span>Lunes – Sábado: 5:00 AM – 11:00 PM<br>Domingo: 7:00 AM – 5:00 PM</span>
+      </div>
+    </div>
+  </div>
+ 
+  <form class="contact-form reveal" onsubmit="handleForm(event)">
+    <div class="form-row">
+      <div class="form-group">
+        <label>Nombre</label>
+        <input type="text" placeholder="Tu nombre" required>
+      </div>
+      <div class="form-group">
+        <label>Apellido</label>
+        <input type="text" placeholder="Tu apellido">
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Email</label>
+      <input type="email" placeholder="tu@email.com" required>
+    </div>
+    <div class="form-group">
+      <label>Teléfono</label>
+      <input type="tel" placeholder="+57 300 000 0000">
+    </div>
+    <div class="form-group">
+      <label>Plan de interés</label>
+      <select>
+        <option value="">Selecciona un plan...</option>
+        <option>Starter — $79/mes</option>
+        <option>Pro+ — $149/mes</option>
+        <option>Elite — $249/mes</option>
+        <option>Solo quiero información</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Mensaje</label>
+      <textarea placeholder="¿Tienes alguna pregunta o comentario?"></textarea>
+    </div>
+    <button type="submit" class="btn-primary" style="align-self:flex-start;margin-top:0.5rem;">Enviar Mensaje</button>
+    <p id="form-msg" style="display:none;color:#4CAF50;font-family:var(--font-cond);font-size:0.9rem;letter-spacing:2px;margin-top:0.5rem;">✓ MENSAJE ENVIADO — TE CONTACTAMOS PRONTO.</p>
+  </form>
+</section>
+ 
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="footer-logo">IRON<span>FORGE</span></div>
+  <ul class="footer-links">
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#planes">Planes</a></li>
+    <li><a href="#entrenadores">Equipo</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+  <div class="footer-copy">© 2025 IronForge. Todos los derechos reservados.</div>
+</footer>
+ 
+<script>
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+    });
+  }, { threshold: 0.12 });
+  reveals.forEach(el => observer.observe(el));
+ 
+  // Nav scroll effect
+  window.addEventListener('scroll', () => {
+    document.querySelector('nav').style.background =
+      window.scrollY > 80 ? 'rgba(10,10,10,0.98)' : 'rgba(10,10,10,0.9)';
+  });
+ 
+  // Form
+  function handleForm(e) {
+    e.preventDefault();
+    document.getElementById('form-msg').style.display = 'block';
+    e.target.reset();
+    setTimeout(() => document.getElementById('form-msg').style.display = 'none', 5000);
+  }
+</script>
+</body>
+</html>
